@@ -3,6 +3,6 @@ const app=express();
 app.get('/',(req,res,next)=>{
     res.send("yadav test");
 })
-app.listen(2000,()=>{
-
+app.listen(3000,()=>{
+ console.log("seerver start")
 })
